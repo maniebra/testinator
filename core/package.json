@@ -1,0 +1,27 @@
+{
+  "name": "testinator",
+  "version": "1.0.0",
+  "description": "a test-case creator for quera.org",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maniebra/testinator.git"
+  },
+  "keywords": [
+    "test-case",
+    "creator",
+    "quera"
+  ],
+  "author": "Mani Ebrahimi",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/maniebra/testinator/issues"
+  },
+  "homepage": "https://github.com/maniebra/testinator#readme",
+  "dependencies": {
+    "electron": "^25.3.1"
+  }
+}
