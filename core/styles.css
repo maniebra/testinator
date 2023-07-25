@@ -1,0 +1,63 @@
+@font-face {
+  font-family: "sfuibold";
+  src: url("./fonts/sfuibold.ttf");
+}
+
+body {
+  background-color: #232323;
+  color: #1e8fff;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 3pt;
+  font-family: "sfuibold";
+}
+
+#testcaseBox {
+  border-color: #1e8fff;
+  border-width: 1.5pt;
+  border-style: solid;
+  border-radius: 10pt;
+  padding: 20pt;
+  margin: 10pt;
+}
+
+button {
+  font-family: "sfuibold";
+  background-color: #1e8fff;
+  border-radius: 15pt;
+  border-width: 0;
+  padding: 10pt;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#addTestcaseButton {
+  margin-top: 30pt;
+}
+
+textarea {
+  border-color: #1e8fff;
+  background-color: #1e8fff15;
+  color: #e3e3e3;
+  border-width: 1.5pt;
+  border-style: solid;
+  border-radius: 10pt;
+  padding: 1%;
+  margin-left: 5%;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 40%;
+  resize: none;
+  height: fit-content;
+}
+
+#extractButton {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: 20pt;
+}
